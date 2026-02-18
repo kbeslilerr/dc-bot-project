@@ -263,4 +263,5 @@ async def tkm(interaction: discord.Interaction, rakip: discord.Member):
     )
 
 
-bot.run("MTQ3MjI1NDQwNzc3MTk0NzI1Mg.GNwwuz.mvEfH5NtdEWxXqUWy5u5mHldnPdGjIa4o7tK9o")
+import os
+bot.run(os.getenv("TOKEN"))
